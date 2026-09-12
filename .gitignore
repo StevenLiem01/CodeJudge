@@ -1,0 +1,25 @@
+# Dependencies
+**/node_modules/
+
+# Environment files and secrets
+**/.env
+**/.env.*
+!.env.example
+
+# Build and generated output
+**/dist/
+**/coverage/
+**/drizzle/
+*.tsbuildinfo
+
+# Runtime and local binaries
+*.exe
+*.out
+*.log
+
+# Editor and operating-system files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
